@@ -1,0 +1,15 @@
+console.log("hello saif this is your first javascrtipt program");
+var myname="saif";
+var age=21;
+console.log(myname);
+console.log(age);
+var nam="ali";
+var age=32;
+console.log(nam);
+console.log(age);
+const name="saif";
+const ag=31;
+console.log(name);
+console.log(ag);
+var num=[1,2,3,5,4,"saif"];
+console.log(num[1]);
