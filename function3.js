@@ -3,11 +3,11 @@ const item={
     drinks:200
 }
  var cart=0;
-function addTOCart(item){
+var addTOCart=(item)=>{
     return cart+item;
-}
-function addValue(item){
+};
+var addValue=(item)=>{
     cart=addTOCart(item);
-}
+};
 addValue(item.food);
 console.log("cart",cart);
