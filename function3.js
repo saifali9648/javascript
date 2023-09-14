@@ -11,3 +11,4 @@ var addValue=(item)=>{
 };
 addValue(item.food);
 console.log("cart",cart);
+document.write("cart",cart);
