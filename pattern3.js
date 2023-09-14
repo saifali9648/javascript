@@ -4,6 +4,5 @@ for(var i=1;i<=5;i++){
         p+="*";
     }
     p+="\n";
-    console.log(p);
 }
 console.log(p);
