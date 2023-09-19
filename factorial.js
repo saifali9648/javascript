@@ -8,7 +8,6 @@ function factorial(number){
     {
         return fact*i;
     }
-    console.log("before",fact);
 }
 var answer=factorial(value.number);
 console.log("answer",answer);
