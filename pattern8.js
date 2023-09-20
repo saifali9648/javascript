@@ -9,6 +9,6 @@ for(let c=1;c<=5;c++){
     for(let d=1;d<=c;d++){
         p+=d;
     }
-    p+="\n";
+    p+="\n"
 }
 console.log(p);
