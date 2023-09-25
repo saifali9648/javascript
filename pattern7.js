@@ -8,7 +8,7 @@ for(var i=1;i<=5;i++){
     }
     p+="\n";
 }
-for(let a=5;a>=1;a++){
+for(let a=5;a>=1;a--){
     for(let b=1;b<a;b++){
         p+=" ";
     }
