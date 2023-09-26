@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="linkModifier()">
+    <ul>
+        <li><a href="http://google.com/">Goggle</a></li>
+        <li><a href="http://www.nytimes.com/">New yourk Times</a></li>
+    </ul>
+    <script type="text/javascript">
+        function linkModifier(){
+            for(var i=0;i<document.links.length;i++){
+                document.links[i].href="https://www.msn.com/";
+            }
+        }
+    </script>
+</body>
+</html>
